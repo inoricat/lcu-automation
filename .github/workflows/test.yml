@@ -14,7 +14,7 @@ jobs:
         
       - name: Setup the League Client
         id: league-client
-        uses: ./Setup-LeagueClient.ps1
+        uses: inoricat/setup-league-client@latest
         with:
           username: ${{ secrets.LOL_USERNAME }}
           password: ${{ secrets.LOL_PASSWORD }}
