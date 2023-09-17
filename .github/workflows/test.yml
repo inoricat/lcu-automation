@@ -14,7 +14,7 @@ jobs:
         
       - name: Setup the League Client
         id: league-client
-        uses: inoricat/setup-league-client@c0e11e986654f07e825f856355448909b83cf4b8
+        uses: inoricat/setup-league-client@989b5562e1e28b0c1692e603d4b0f232f9140550
         with:
           username: ${{ secrets.LOL_USERNAME }}
           password: ${{ secrets.LOL_PASSWORD }}
